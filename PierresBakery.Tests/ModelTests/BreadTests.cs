@@ -19,7 +19,7 @@ namespace PierresBakery.Tests
     [TestMethod]
     public void BreadName_CorrectlyIDNameFor1_loaf()
     {
-      Assert.AreEqual("loaf", Bread.BreadCost(1));
+      Assert.AreEqual("loaf", Bread.BreadName(1));
     }
   }
 }

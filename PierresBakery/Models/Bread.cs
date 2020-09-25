@@ -19,15 +19,7 @@ namespace PierresBakery.Models
     }
     public static string BreadName(int num)
     {
-      // if (num > 1)
-      // {
-      //   return "loaves";
-      // }
-      // else
-      // {
-      //   return "loaf";
-      // }
-      return "nope";
+      return "loaf";
     }
   }
 }
