@@ -21,5 +21,10 @@ namespace PierresBakery.Tests
     {
       Assert.AreEqual("pastry", Pastry.PastryName(1));
     }
+    [TestMethod]
+    public void PastryName_CorrectlyIDNameFor3_pastries()
+    {
+      Assert.AreEqual("pastries", Pastry.PastryName(3));
+    }
   }
 }
