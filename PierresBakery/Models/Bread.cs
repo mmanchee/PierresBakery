@@ -1,7 +1,12 @@
-namespace ProjectName
+using System;
+
+namespace PierresBakery.Models
 {
-  public class ClassName
+  public class Bread
   {
-    // properties, constructors, methods, etc. go here
+    public int BreadCost(int number)
+    {
+      return 0;
+    }
   }
 }
