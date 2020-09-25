@@ -1,5 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using PierresBakery;
+using PierresBakery.Models;
 
 namespace PierresBakery.Tests
 {
@@ -7,10 +7,9 @@ namespace PierresBakery.Tests
   public class BreadTests
   {
     [TestMethod]
-    public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
+    public void BreadCost_CorrectlyCalcPriceFor1Loaf_5()
     {
-      // any necessary logic to prep for test; instantiating new classes, etc.
-      Assert.AreEqual(EXPECTED RESULT, CODE TO TEST);
+      Assert.AreEqual(5, Bread.BreadCost(1));
     }
   }
 }

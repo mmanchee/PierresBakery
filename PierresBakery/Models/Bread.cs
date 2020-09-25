@@ -1,10 +1,11 @@
 using System;
+using PierresBakery;
 
 namespace PierresBakery.Models
 {
   public class Bread
   {
-    public int BreadCost(int number)
+    public static int BreadCost(int number)
     {
       return 0;
     }

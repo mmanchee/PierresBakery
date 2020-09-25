@@ -5,7 +5,7 @@ namespace PierresBakery
 {
   public class Program
   {
-    public static void Main();
+    public static void Main()
     {
       for (int i = 0; i < 2; i++)
       {
@@ -22,7 +22,7 @@ namespace PierresBakery
         }
         else
         {
-          i++
+          i++;
         }
       }
       
