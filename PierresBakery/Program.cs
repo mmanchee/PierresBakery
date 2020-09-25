@@ -7,6 +7,8 @@ namespace PierresBakery
   {
     public static void Main()
     {
+      int[] userArray = {0,0,0,0}; //{Loaves,Bread$,Parties,Pastry$}
+      int number = 0;
       Console.WriteLine("Welcome to Pierre's Bakery!");
       for (int i = 0; i < 1;)
       {
@@ -14,19 +16,44 @@ namespace PierresBakery
         string type = Console.ReadLine().ToLower();
         if (type == "bread")
         {
-          Console.WriteLine("How many loaves would you like?");
+            if (userArray[0] < 0)
+            {
+              Console.WriteLine("How many more loaves would you like? (if you want less use a negative number)");
+            }
+            else
+            {
+              Console.WriteLine("How many loaves would you like?");
+            }
           string userB = Console.ReadLine();
           int bread = int.Parse(userB);
+          number = bread + userArray[0];
+          userArray[3] = Bread.BreadCost(number);
         }
         else if (type == "pastry")
         {
-          Console.WriteLine("How many pastries would you like?");
+          if (type == "bread")
+        {
+            if (userArray[2] < 0)
+            {
+              Console.WriteLine("How many more loaves would you like? (if you want less use a negative number)");
+            }
+            else
+            {
+              Console.WriteLine("How many loaves would you like?");
+            }
           string userP = Console.ReadLine();
           int pastry = int.Parse(userP);
+          number = pastry + userArray[2];
+          userArray[3] = Pastry.PastryCost(number);
         }
         else if (type == "receipt")
         {
-          // total function
+          
+          Console.WriteLine("Your Total with tax is: " + total);
+          Console.WriteLine();
+          Console.WriteLine();
+          Console.WriteLine();
+          Console.WriteLine();
           i++;
         }
         else if (type == "exit")
@@ -35,7 +62,7 @@ namespace PierresBakery
         }
         else
         {
-          Console.WriteLine("Input not vaild, please try again.");
+          Console.WriteLine("Input not valid, please try again.");
         }
       }
       
