@@ -64,9 +64,11 @@ namespace PierresBakery
           }
           Console.WriteLine("-------------------------");
         }
+
         Console.WriteLine("What would you like to order? (Bread, Pastry, Receipt, or Exit)");
         string type = Console.ReadLine().ToLower();
         Console.WriteLine("-------------------------");
+        
         if (type == "bread")
         {
             if (numArray[0] < 0)

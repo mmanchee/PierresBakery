@@ -7,7 +7,6 @@ namespace PierresBakery.Models
   {
     public static int BreadCost(int number)
     {
-      
       int newNum = number % 3;
       int total = newNum * 5;
       if (number > 2)
