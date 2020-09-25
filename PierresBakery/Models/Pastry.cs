@@ -17,5 +17,16 @@ namespace PierresBakery.Models
       
       return total;
     }
+    public static string PastryName(int num)
+    {
+      // if (num > 1)
+      // {
+      //   return "loaves";
+      // }
+      // else
+      {
+        return "null";
+      }
+    }
   }
 }
