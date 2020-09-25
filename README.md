@@ -4,26 +4,6 @@
 
 #### By _**Mike Manchee**_
 
- //========================================================================\\
-||--------------------------------------------------------------------------||
-||-PPPPPPP---IIIIIIII--EEEEEEEE--RRRRRRR---RRRRRRR---EEEEEEEE--999--SSSSSS--||
-||-PP----PP-----II-----EE--------RR----RR--RR----RR--EE--------99--SS----SS-||
-||-PP----PP-----II-----EE--------RR----RR--RR----RR--EE--------9---SS-------||
-||-PPPPPPP------II-----EEEEE-----RRRRRRR---RRRRRRR---EEEEE----------SSSSSS--||
-||-PP-----------II-----EE--------RR-RR-----RR-RR-----EE------------------SS-||
-||-PP-----------II-----EE--------RR--RR----RR--RR----EE------------SS----SS-||
-||-PP--------IIIIIIII--EEEEEEEE--RR---RR---RR---RR---EEEEEEEE-------SSSSSS--||
-||--------------------------------------------------------------------------||
-||--------BBBBBBB-----AAAA----KK----KK--EEEEEEEE--RRRRRRR---YY----YY--------||
-||--------BB----BB---AA--AA---KK---KK---EE--------RR----RR---YY--YY---------||
-||--------BB----BB--AA----AA--KK-KK-----EE--------RR----RR----YYYY----------||
-||--------BBBBBB----AAAAAAAA--KKKK------EEEEE-----RRRRRRR------YY-----------||
-||--------BB----BB--AA----AA--KK-KK-----EE--------RR-RR--------YY-----------||
-||--------BB----BB--AA----AA--KK---KK---EE--------RR--RR-------YY-----------||
-||--------BBBBBBB---AA----AA--KK----KK--EEEEEEEE--RR---RR------YY-----------||
-||--------------------------------------------------------------------------||
- \\========================================================================//
-
 ## Description
 
 Pierre's Bakery is a take-home technical challenge for an interview with a local company. Pierre's needs to be able to tell customers the price of their breads and pastries, also showing the customer the total price for their order. Pierre's baked goods costs are: Bread - Buy 2, get 1 free. A single loaf is $5, Pastry - Buy 1 for $2 or 3 for $5.
