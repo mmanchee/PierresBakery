@@ -25,7 +25,7 @@ namespace PierresBakery.Models
       // }
       // else
       {
-        return "null";
+        return "pastry";
       }
     }
   }
