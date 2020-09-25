@@ -7,22 +7,35 @@ namespace PierresBakery
   {
     public static void Main()
     {
-      for (int i = 0; i < 2; i++)
+      Console.WriteLine("Welcome to Pierre's Bakery!");
+      for (int i = 0; i < 1;)
       {
-        Console.WriteLine("Welcome to Pierre's Bakery!");
-        Console.WriteLine("What would you like to order? (Bread, Pastry, or Exit)");
+        Console.WriteLine("What would you like to order? (Bread, Pastry, Receipt, or Exit)");
         string type = Console.ReadLine().ToLower();
         if (type == "bread")
         {
-
+          Console.WriteLine("How many loaves would you like?");
+          string userB = Console.ReadLine();
+          int bread = int.Parse(userB);
         }
         else if (type == "pastry")
         {
-
+          Console.WriteLine("How many pastries would you like?");
+          string userP = Console.ReadLine();
+          int pastry = int.Parse(userP);
+        }
+        else if (type == "receipt")
+        {
+          // total function
+          i++;
+        }
+        else if (type == "exit")
+        {
+          i++;
         }
         else
         {
-          i++;
+          Console.WriteLine("Input not vaild, please try again.");
         }
       }
       
