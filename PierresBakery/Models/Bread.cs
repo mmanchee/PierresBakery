@@ -7,7 +7,8 @@ namespace PierresBakery.Models
   {
     public static int BreadCost(int number)
     {
-      return 0;
+      int total = number * 5;
+      return total;
     }
   }
 }
