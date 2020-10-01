@@ -1,10 +1,17 @@
-using System;
-using PierresBakery;
-
 namespace PierresBakery.Models
 {
   public class Pastry
   {
+    public int Cost { get; set; }
+    public int Number { get; set; }
+    public string Name { get; set; }
+
+    public Pastry(string name, int number, int cost)
+    {
+      Name = name;
+      Number = number;
+      Cost = cost;
+    }
     public static int PastryCost(int number)
     {
       int newNum = number % 3;
@@ -17,9 +24,9 @@ namespace PierresBakery.Models
       
       return total;
     }
-    public static string PastryName(int num)
+    public static string PastryName(int number)
     {
-      if (num > 1)
+      if (number > 1)
       {
         return "pastries";
       }
