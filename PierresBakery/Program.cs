@@ -20,7 +20,7 @@ namespace PierresBakery
       Console.WriteLine("||---------BBBBBBB-----AAAA----KK----KK--EEEEEEEE--RRRRRRR---YY----YY----------||");
       Console.WriteLine("||---------BB----BB---AA--AA---KK---KK---EE--------RR----RR---YY--YY-----------||");
       Console.WriteLine("||---------BB----BB--AA----AA--KK-KK-----EE--------RR----RR----YYYY------------||");
-      Console.WriteLine("||---------BBBBBB----AAAAAAAA--KKKK------EEEEE-----RRRRRRR------YY-------------||");
+      Console.WriteLine("||---------BBBBBB----AAAAAAAA--KKK-------EEEEE-----RRRRRRR------YY-------------||");
       Console.WriteLine("||---------BB----BB--AA----AA--KK-KK-----EE--------RR-RR--------YY-------------||");
       Console.WriteLine("||---------BB----BB--AA----AA--KK---KK---EE--------RR--RR-------YY-------------||");
       Console.WriteLine("||---------BBBBBBB---AA----AA--KK----KK--EEEEEEEE--RR---RR------YY-------------||");
